@@ -2,7 +2,7 @@
   display: none;
 }
 #slideshow.masthead {
-  background-image: url("/blur-body-close-up-161477.jpg") !important;
+  background-image: url("./blur-body-close-up-161477.jpg") !important;
   background-size: cover !important;
 }
 #slideshow.masthead.segment {
