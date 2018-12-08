@@ -1,0 +1,32 @@
+extends /src/templates/layout.pug
+
+block append scripts
+  script(src='./dist/app.js')
+
+block append title
+  | Contact | Polaris Massage Therapy
+
+block append page
+  include /src/templates/main-menu.pug
+  #page
+    .ui.main.text.container
+      h1.ui.header Contact page
+      h2  We Make Bananas That Can Dance
+      h3.ui.header We Help Companies and Companions
+      p We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.
+      h3.ui.header We Make Bananas That Can Dance
+      p Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.
+      .six.wide.right.floated.column
+        img.ui.large.bordered.rounded.image(src="/sean.png")
+  .ui.vertical.stripe.quote.segment
+    .ui.equal.width.stackable.internally.celled.grid
+      .center.aligned.row
+        .column
+          h3 "What a Company"
+          p That is what they all say about us
+        .column
+          h3 "I shouldn't have gone with their competitor."
+          p
+            img.ui.avatar.image(src="./src/lib/kettlefish.png")
+            b Nan
+            | Chief Fun Officer Acme Toys
