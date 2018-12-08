@@ -1,7 +1,7 @@
 .hidden.menu 
   display: none
     
-.masthead 
+#slideshow.masthead
   &.segment 
     min-height: 700px
     padding: 1em 0em
@@ -17,9 +17,11 @@
   h2 
     font-size: 1.7em
     font-weight: normal
+  background-image: url('/blur-body-close-up-161477.jpg') !important;
+  background-size: cover !important;
     
 .ui.vertical.stripe 
-  padding: 8em 0em  
+  padding: 8em 0em
   h3 
     font-size: 2em
   .button + h3,
@@ -42,18 +44,20 @@
 .footer.segment 
   padding: 5em 0em
 
-.secondary.pointing.menu .toc.item 
+.pointing.menu .toc.item 
   display: none
 
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 1000px) 
   .ui.fixed.menu 
     display: none !important
-  .secondary.pointing.menu
+  .pointing.menu
     & .item,
     & .menu 
-      display: none
-  .secondary.pointing.menu .toc.item 
-    display: block
+      display: none !important
+  .pointing.menu
+    .toc.item,
+    .logo.item
+      display: block !important
   .masthead
     &.segment 
       min-height: 350px
