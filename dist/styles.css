@@ -44,6 +44,9 @@
 .ui.vertical.stripe .horizontal.divider {
   margin: 3em 0em;
 }
+#page {
+  margin: 2.5em;
+}
 .quote.stripe.segment {
   padding: 0em;
 }
@@ -55,7 +58,7 @@
   padding: 5em 0em;
 }
 .pointing.menu .toc.item {
-  display: none;
+  display: none !important;
 }
 @media only screen and (max-width: 1000px) {
   .ui.fixed.menu {

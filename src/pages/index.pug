@@ -8,19 +8,7 @@ block append title
 
 block append page
   #slideshow.ui.vertical.masthead.center.aligned.segment
-    .ui.container
-      .ui.large.pointing.menu
-        a.toc.item
-          i.sidebar.icon
-        a.logo.item(href="/")
-          img.ui.small.image(src="/logo.png")
-        a.item(href="/about.html") About
-        a.item(href="/benefits.html") Benefits
-        a.item(href="/services.html") Services
-        a.item(href="/testimonials.html") Testimonials
-        a.item(href="/contact.html") Contact
-        .right.item
-          a.ui.black.button BOOK NOW
+    include /src/templates/main-menu.pug
     .ui.text.container
       h1.ui.inverted.header Sports Massage
       h2  We Make Bananas That Can Dance
